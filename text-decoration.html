@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Decoration Style</title>
+</head>
+
+<body>
+  <div>
+    <!-- Text Decoration -->
+    <div>
+      <h1>Text Decoration with Color, Line, Style </h1>
+
+      <h3><a href="" style="text-decoration: none;"> Link/ Hyperlink "text-decoration:none;"</a></h3>
+      <h3 style="text-decoration: line-through red;">
+        Line-through text decoration "text-decoration: line-through red;"
+      </h3>
+      <h3 style="text-decoration: underline red wavy;">
+        Underline text decoration
+      </h3>
+      <br>
+      <h3 
+      style="
+      text-decoration-line: overline;
+       text-decoration-color: red; 
+       text-decoration-style: double;"
+       >
+        Overline text decoration
+      </h3>
+      <h3 style="
+      text-decoration-line: overline underline;
+       text-decoration-color: red;
+        text-decoration-style: dotted;">
+        Overline and underline text decoration.
+      </h3>
+      <h3
+        style="
+        text-decoration-line: overline underline; 
+        text-decoration-color: red; 
+        text-decoration-style: solid;
+        text-decoration-thickness: 10px;">
+        Overline and underline text decoration with thickness.
+      </h3>
+
+      <p><strong>Note:</strong> It is not recommended to underline text that is not a link, as this often confuses
+        the reader.</p>
+
+      <pre>
+          text-decoration-line (required)
+          text-decoration-color (optional)
+          text-decoration-style (optional)
+          text-decoration-thickness (optional)
+          
+        ##text-decoration-line:
+        
+        Values: none, underline, overline, line-through, blink (This is non-standard and has limited browser support.)
+        Purpose: Defines the type of text decoration to be applied.
+
+        ##text-decoration-style:
+        
+        Values: solid, double, dotted, dashed, wavy
+        Purpose: Defines the style of the text decoration line.
+
+        ##text-decoration-color:
+        
+        Values: Any valid color value (color or rgba).
+        Purpose: Specifies the color of the text decoration line.
+
+        ##text-decoration-thickness (Currently in draft status, might not be widely supported yet):
+        
+        Values: auto, a length value.
+        Purpose: Defines the thickness of the text decoration line.
+            </pre>
+    </div>
+</body>
+
+</html>
