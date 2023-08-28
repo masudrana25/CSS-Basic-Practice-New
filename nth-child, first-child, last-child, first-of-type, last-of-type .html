@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .aaaa:first-letter {
+      color: red;
+      font-size: 50px;
+    }
+
+    .bbbb:first-line {
+      color: red;
+      font-size: 25px;
+    }
+
+    .cccc i:first-child {
+      color: red;
+      font-size: 25px;
+    }
+
+
+    .list li:nth-child(2n+1) {
+      color: red;
+    }
+
+    .list li:nth-child(2n+2) {
+      background-color: aqua;
+    }
+
+    .list li:first-of-type {
+      font-size: 30px;
+    }
+
+    .list li:last-of-type {
+      font-size: 30px;
+    }
+
+    .child p:first-child {
+      background-color: aqua;
+    }
+
+    .child p:last-child {
+      background-color: blueviolet;
+      color: white;
+    }
+
+    .child p:nth-child(2) {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <!-- first-letter select and change properties -->
+    <p class="aaaa">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum velit debitis corrupti aliquam inventore sint eum
+      dolores facilis ab perspiciatis deleniti quasi, maiores quidem! Provident officia architecto ratione quibusdam
+      iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea molestiae reprehenderit accusamus totam dolore
+      harum, dolor consequuntur, voluptate quidem asperiores nobis sapiente, numquam necessitatibus vitae. Dignissimos
+      eligendi repellat reprehenderit itaque.
+    </p>
+    <hr>
+
+    <!-- first-line select and change properties -->
+    <p class="bbbb">
+      Lorem ipsum dolor sit , adipisicing elit. Rerum velit debitis corrupti aliquam
+      inventore sint eum
+      dolores facilis ab perspiciatis deleniti quasi, maiores quidem! Provident officia architecto ratione quibusdam
+      iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea molestiae reprehenderit accusamus totam dolore
+      harum, dolor consequuntur, voluptate quidem asperiores nobis sapiente, numquam necessitatibus vitae. Dignissimos
+      eligendi repellat reprehenderit itaque.
+    </p>
+    <hr>
+
+    <!-- first-child select and change properties -->
+    <p class="cccc">
+      Lorem ipsum dolor sit <i>amet consectetur</i> , adipisicing elit. Rerum velit debitis <i>amet consectetur</i>
+      corrupti aliquam
+      inventore sint eum
+      dolores facilis ab perspiciatis deleniti quasi, maiores quidem! Provident officia architecto ratione quibusdam
+      iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea molestiae reprehenderit accusamus totam dolore
+      harum, dolor consequuntur, voluptate quidem asperiores nobis sapiente, numquam necessitatibus vitae. Dignissimos
+      eligendi repellat reprehenderit itaque.
+    </p>
+  </div>
+
+  <!-- child p:nth-child  -->
+  <div class="child">
+    <h1>child p:nth-child</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptate aut beatae delectus alias facere libero
+      voluptas soluta, omnis, porro numquam maxime consectetur, minus in ducimus exercitationem cum quasi. Modi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ratione quaerat deleniti? Sed quod ea quos.
+      Sapiente molestiae corporis ipsam necessitatibus neque adipisci, nam minima, maiores eligendi earum, magnam omnis?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quo tempora blanditiis atque deserunt. Ullam
+      minus quam ratione, quia corporis sunt suscipit error. Debitis voluptas nesciunt quo odit deserunt! Saepe!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni natus sit, dolore neque, magnam reprehenderit vel
+      eaque molestias ratione, amet iure incidunt obcaecati commodi similique. Et deserunt voluptatem eum
+      necessitatibus.</p>
+  </div>
+  <hr>
+  <hr>
+
+  <div class="list">
+    <ul>
+      <li>item-1</li>
+      <li>item-2</li>
+      <li>item-3</li>
+      <li>item-4</li>
+      <li>item-5</li>
+      <li>item-6</li>
+      <li>item-7</li>
+    </ul>
+  </div>
+</body>
+
+</html>
