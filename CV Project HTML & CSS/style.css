@@ -1,0 +1,288 @@
+/* ----------------
+Common Style started
+------------------*/
+
+body{
+  font-family: 'Lora', serif;
+    margin-left: 0px;
+  margin-right: 0px;
+  background-color: antiquewhite;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0px auto;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+hr.hr-common{
+  margin: 20px auto;
+ border: 1px solid black;
+}
+
+h6,h5,h4,h3,h2,h1{
+  color: blueviolet;
+}
+
+/* --------------
+Common Style end
+-----------------*/
+
+
+/* ----------
+Header Started
+--------------*/
+
+header img{
+  height: 100px;
+  border-radius: 50px;
+  border: 4px solid whitesmoke;
+  float: left;
+
+}
+
+.header-identity{
+  float: left;
+  padding-left: 40px;
+}
+
+.header-contact{
+  float: right;
+  padding-right: 70px;
+  margin-top: 15px;
+
+}
+
+.header-contact ul{
+  list-style-type: none;
+}
+
+.header-contact ul li{
+  padding-top: 5px;
+}
+
+.header-contact ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.header-contact ul li a h5{
+  margin: 0px;
+}
+
+.header-contact ul a:hover{
+  color: red;
+  font-weight: bolder;
+}
+
+.hr-header{
+    margin: 20px auto;
+ border: 2px solid black;
+}
+
+/* ----------
+Header End
+--------------*/
+
+
+
+/* ----------
+main Started
+--------------*/
+
+/* ----------
+Personal Information Started
+--------------*/
+.personal-info .left{
+  width: 33%;
+  float: left;
+}
+
+.personal-info .right{
+  width: 67%;
+  float: left;
+}
+
+.personal-info .right p{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ----------
+Personal Information ended
+--------------*/
+
+
+/* ----------
+Work Experience Started
+--------------*/
+
+.work-experience .left{
+  width: 33%;
+  float: left;
+}
+
+.work-experience .right{
+  width: 67%;
+  float: left;
+}
+
+.work-experience .right h5, h4{
+  margin: 0px;
+}
+
+/* ----------
+Work Experience ended
+--------------*/
+
+/* ----------
+Key Skill Started
+--------------*/
+
+.key-skill .left{
+  width: 33%;
+  float: left;
+}
+
+.key-skill .right{
+  width: 67%;
+  float: left;
+}
+
+.key-skill .right h5, h4{
+  margin: 0px;
+}
+
+/* ----------
+Key Skill ended
+--------------*/
+
+
+
+/* ----------
+Education Started
+--------------*/
+
+.education .left{
+  width: 33%;
+  float: left;
+}
+
+.education .right{
+  width: 67%;
+  float: left;
+}
+
+.education .right h5, h4{
+  margin: 0px;
+}
+
+.education .right .first-half{
+  float: left;
+  width: 45%
+}
+
+.education .right .second-half{
+  float: right;
+  width: 45%
+}
+/* ----------
+Education ended
+--------------*/
+
+
+
+/* ----------
+Honours & Awards Started
+--------------*/
+
+.honours-award .left{
+  width: 33%;
+  float: left;
+}
+
+.honours-award .right{
+  width: 67%;
+  float: left;
+}
+
+.honours-award .right h5, h4{
+  margin: 0px;
+}
+
+/* ----------
+Honours & Awards ended
+--------------*/
+
+
+/* ----------
+Reference Started
+--------------*/
+
+.reference .left{
+  width: 33%;
+  float: left;
+}
+
+.reference .right{
+  width: 67%;
+  float: left;
+}
+
+.reference .right h5, h4{
+  margin: 0px;
+}
+
+.reference .right .first-half{
+  float: left;
+  width: 45%
+}
+
+.reference .right .second-half{
+  float: right;
+  width: 45%
+}
+
+/* ----------
+Reference ended
+--------------*/
+
+
+/* ----------
+main End
+--------------*/
+
+
+
+/* ----------
+Footer start
+--------------*/
+footer{
+  background-color: black;
+  text-align: center;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li{
+  display: inline-block;
+  padding: 20px 20px 0px 0px;
+}
+
+footer .copy{
+  color: white;
+  padding-bottom: 5px;
+}
+/* ----------
+Footer ended
+--------------*/
