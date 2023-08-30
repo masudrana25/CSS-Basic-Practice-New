@@ -12,7 +12,7 @@ body{
 .container{
   max-width: 1000px;
   margin: 0px auto;
-  background-color: aquamarine;
+  background-color: rgba(174, 226, 226, 0.918);
   padding: 20px;
 }
 
