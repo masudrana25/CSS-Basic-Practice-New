@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Overflow</title>
+  <style>
+    .one-div {
+      width: 17%;
+      height: 100px;
+      float: left;
+      padding: 5px;
+      border: 2px solid red;
+      margin-left: 15px;
+    }
+
+    h3 {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #first-div {
+      overflow: visible;
+    }
+
+    #second-div {
+      overflow: hidden;
+    }
+
+    #third-div {
+      overflow: auto;
+    }
+
+    #forth-div {
+      overflow: scroll;
+    }
+
+    #fifth-div {
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>
+    প্রথমে খুজে বের করতে হবে যে আমার লেখা/text কোন দিক বরাবর বেশি হয়ে থাকছে/আছে <br>
+    <ol>
+      <li>
+        x অক্ষ বরাবর অতিরিক্ত লেখা/text বেশি আছে ।
+      </li>
+      <li>
+        y অক্ষ বরাবর অতিরিক্ত লেখা/text বেশি আছে ।
+      </li>
+      <li>
+        উভয় অক্ষ বরাবর অতিরিক্ত লেখা/text বেশি আছে ।
+      </li>
+      <li>
+         লেখা টা যে parrent element/div এর মধ্যে আছে, তার height, width কোন দিক বরাবর কত টুকু আছে তা দেখতে হবে ।
+      </li>
+    </ol> 
+
+    এই সকল বিষয় দেখে তারপর overflow এর সবগুলো property এর মধ্যে কোনটা ব্যবহার করবো সেইটা সিদ্ধান্ত নিব ।
+  </h1>
+
+  <div class="aaa">
+
+    <div class="one-div" id="first-div">
+      <h3>overflow:visible</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, non dolorem cum provident quam voluptatem laborum
+      officiis ab porro ut quasi! Praesentium officia assumenda illum aliquam eveniet cumque amet voluptates!
+      Id odio temporibus impedit dolor quisquam quasi voluptatem sapiente expedita cupiditate ex, tempora
+      Animi in ea, et ut excepturi harum quidem id ad voluptatem neque asperiores. Delectus fugiat, sit, optio quaerat
+      illo facere tempora ducimus, officiis hic porro quasi nihil inventore in rerum.
+    </div>
+
+    <div class="one-div" id="second-div">
+      <h3>overflow:hidden</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, non dolorem cum provident quam voluptatem laborum
+      officiis ab porro ut quasi! Praesentium officia assumenda illum aliquam eveniet cumque amet voluptates!
+      Id odio temporibus impedit dolor quisquam quasi voluptatem sapiente expedita cupiditate ex, tempora
+      Animi in ea, et ut excepturi harum quidem id ad voluptatem neque asperiores. Delectus fugiat, sit, optio quaerat
+      illo facere tempora ducimus, officiis hic porro quasi nihil inventore in rerum.
+    </div>
+
+    <div class="one-div" id="third-div">
+      <h3>overflow:auto</h3>
+      The auto value is similar to scroll, but it adds scrollbars only when necessary: <br>
+      officiis ab porro ut quasi! Praesentium officia assumenda illum aliquam eveniet cumque amet voluptates!
+      Id odio temporibus impedit dolor quisquam quasi voluptatem sapiente expedita cupiditate ex, tempora
+      Animi in ea, et ut excepturi harum quidem id ad voluptatem neque asperiores. Delectus fugiat, sit, optio quaerat
+      illo facere tempora ducimus, officiis hic porro quasi nihil inventore in rerum.
+    </div>
+
+    <div class="one-div" id="forth-div">
+      <h3>overflow:scroll</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, non dolorem cum provident quam voluptatem laborum
+      officiis ab porro ut quasi! Praesentium officia assumenda illum aliquam eveniet cumque amet voluptates!
+      Id odio temporibus impedit dolor quisquam quasi voluptatem sapiente expedita cupiditate ex, tempora
+      Animi in ea, et ut excepturi harum quidem id ad voluptatem neque asperiores. Delectus fugiat, sit, optio quaerat
+      illo facere tempora ducimus, officiis hic porro quasi nihil inventore in rerum.
+    </div>
+
+    <div class="one-div" id="fifth-div">
+      <h3>overflow-x:hidden <br> overflow-y:scroll</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, non dolorem cum provident quam voluptatem laborum
+      officiis ab porro ut quasi! Praesentium officia assumenda illum aliquam eveniet cumque amet voluptates!
+      Id odio temporibus impedit dolor quisquam quasi voluptatem sapiente expedita cupiditate ex, tempora
+      Animi in ea, et ut excepturi harum quidem id ad voluptatem neque asperiores. Delectus fugiat, sit, optio quaerat
+      illo facere tempora ducimus, officiis hic porro quasi nihil inventore in rerum.
+    </div>
+  </div>
+</body>
+
+</html>
