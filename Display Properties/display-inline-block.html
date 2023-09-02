@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline-Block Example</title>
+  <style>
+    .inline-block-element {
+      display: inline-block;
+      width: 500px;
+      height: 100px;
+      background-color: #3498db;
+      margin: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="text-align: center;">
+    display: inline-block;
+  </h1>
+  <h4>এই style টি একই সাথে display: inline; এবং display: block; এর কাজ করে থাকে । <br>
+    display: inline-block; দেয়া element এর width এবং height অনুসারে element টি একই লাইন বরাবর বসবে (display: inline; এর
+    মতো) । কিন্তু যদি জাইগা না হই তবে পরের লাইন এ চলে যাবে (display: block; element এর মতো) । <br>
+    তাই এই display: inline-block; দেয়ার মাধ্যমে element টা কে একই সাথে inline এবং block দুই ধরনের property দেয়া যাই ।
+  </h4>
+  <h1>####Note: এটি একই সাথে ওই element গুলাকে responsive ও করবে , display এর width এবং height অনুসারে ।</h1>
+  <div class="inline-block-element">
+    inline-block element - 01.
+  </div>
+  <div class="inline-block-element">
+    inline-block element - 02.
+  </div>
+  <div class="inline-block-element">
+    inline-block element - 03.
+  </div>
+</body>
+
+</html>

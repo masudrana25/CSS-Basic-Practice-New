@@ -39,21 +39,22 @@
   <h1>Position Absolute in css style. </h1>
   <h2>কোন element এর Position Absolute সেট করার আগে অবশ্যই
     তাঁর parrent element কে Position relative সেট করতে হবে ।
-    তারপর এই child element এর Position Absolute সেট করতে হবে । <br>
+    তারপর এই child element এর Position Absolute সেট করতে হবে । </h2>
 
 
-    Position Absolute মানে হল কোন element প্রথমে যে parrent element এর মধ্যে যে অবস্থানে ছিল , সেই parrent element
+  <h4>Position Absolute মানে হল কোন element প্রথমে যে parrent element এর মধ্যে যে অবস্থানে ছিল , সেই parrent element
     অবস্থানের সাপেক্ষে top,bottum,left,right এ কত
     দুরত্তে সরে যাবে । এক্ষেত্রে top এবং bottum একসাথে দেয়া যাবে কিন্তু খেয়াল রাখতে হবে যে height, width অনসারে সেই
-    top,bottum,left,right এর মান গুলো satisfy করে কি না ।
-    <br> <br>
-    <span style="font-weight: 800; font-size: 45px;">Note: </span>
-    অবশ্যই মনে রাখতে হবে যে Position Absolute এর যে top,bottum,left,right তে Position দিবো তা ওই element এর parrent
+    top,bottum,left,right এর মান গুলো satisfy করে কি না ।</h4>
+  <span style="font-weight: 800; font-size: 45px;">Note: </span>
+  <h2>অবশ্যই মনে রাখতে হবে যে Position Absolute এর যে top,bottum,left,right তে Position দিবো তা ওই element এর parrent
     element যে Position ছিল
-    সেইখান থেকে সেট করা হবে । ওয়েবপেজ এর top,bottum,left,right নই ।
-  </h2>
+    সেইখান থেকে সেট করা হবে । ওয়েবপেজ এর top,bottum,left,right নই ।</h2>
+
   <br>
   <h2> scroll করার সময় কোন পরিবর্তন হবে না । অন্য সব element এর মতই আচারন করবে ।</h2>
+  <h2> যদি parrent element এ Position relative সেট না করা হই, তবে Position Absolute করা container/part টা Viewport এর
+    সাপেক্ষে তাঁর top,bottum,left,right এর value নিয়ে নিজেকে সাজাবে । </h2>
 
   <br><br><br>
   <div class="relative">

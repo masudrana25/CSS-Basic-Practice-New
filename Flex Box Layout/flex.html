@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Box Layout</title>
+  <style>
+    .container-1 {
+      background-color: aqua;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      height: 300px;
+      align-items: center;
+    }
+
+    .container-1>div {
+      background-color: black;
+      color: aliceblue;
+      padding: 10px;
+      width: 200px;
+      height: 50px;
+      margin: 10px;
+    }
+
+     .container-2 {
+      background-color: rgb(11, 14, 14);
+      width: fit-content;
+      display: flex;
+      flex-wrap: wrap;
+      height: 300px;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .container-2>div {
+      background-color: rgb(235, 224, 224);
+      color: rgb(22, 23, 24);
+      padding: 10px;
+      width: 200px;
+      height: 50px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <h1>container-1</h1>
+    <div class="container-1">
+      <div class="div-1">div-1</div>
+      <div class="div-2">div-2</div>
+      <div class="div-3">div-3</div>
+      <div class="div-4">div-4</div>
+      <div class="div-5">div-5</div>
+      <div class="div-6">div-6</div>
+      <div class="div-7">div-7</div>
+      <div class="div-8">div-8</div>
+      <div class="div-9">div-9</div>
+      <div class="div-10">div-10</div>
+    </div>
+  </section>
+
+  <section>
+    <h1>container-2</h1>
+    <div class="container-2">
+      <div class="div-1">div-1</div>
+      <div class="div-2">div-2</div>
+      <div class="div-3">div-3</div>
+      <div class="div-4">div-4</div>
+      <div class="div-5">div-5</div>
+      <div class="div-6">div-6</div>
+      <div class="div-7">div-7</div>
+      <div class="div-8">div-8</div>
+      <div class="div-9">div-9</div>
+      <div class="div-10">div-10</div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>
