@@ -1,0 +1,10 @@
+
+  .div-1{
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border: 1px solid red;
+  }

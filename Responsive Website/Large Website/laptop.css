@@ -1,0 +1,9 @@
+.div-1{
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid red;
+}

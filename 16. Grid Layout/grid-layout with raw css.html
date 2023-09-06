@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .grid-container-1 {
+      display: grid;
+      /* display: inline-grid;  */
+      /* joto tuku likha achy, seita diye minimum width a grid item gulakey sajabey */
+      background-color: cadetblue;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 50px 100px 200px;
+      padding: 10px;
+      grid-gap: 5px;
+    }
+
+    .grid-container-1>div {
+      background-color: aqua;
+      text-align: center;
+      padding: 20px;
+      font-size: 25px;
+      border: 1px solid red;
+    }
+
+    .grid-container-2 {
+      box-sizing: border-box;
+      display: grid;
+      background-color: cadetblue;
+      grid-template-columns: 100px 100px 100px 100px;
+      grid-column-gap: 50px;
+      grid-row-gap: 25px;
+      padding: 10px;
+      height: 1000px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .grid-container-2>div {
+      background-color: aqua;
+      text-align: center;
+      padding: 20px;
+      font-size: 25px;
+      border: 1px solid red;
+    }
+
+    .grid-container-1 .grid-item-1 {
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
+
+    .grid-container-1 .grid-item-2 {
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    .grid-container-1 .grid-item-5 {
+      grid-row-start: 2;
+      grid-row-end: 4;
+      grid-column-start: 4;
+      grid-column-end: 6;
+    }
+
+    .grid-container-1 .grid-item-9 {
+      /* grid-column-start: 1; */
+      /* grid-column-end: 6; */
+      grid-column: 1/6;
+      /* grid-column: 1/ span 5; */
+    }
+
+    .grid-container-1 .grid-item-10 {
+      /* grid-column-start: 1; */
+      /* grid-column-end: 6; */
+      grid-column: 1 / span 5;
+      /* grid-column: 1/6; */
+      /* span  diye bojhacchy j koita grid er ghor nibey. */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Grid Layout Practice</h1>
+  <div class="grid-container-1">
+    <div class="grid-item-1">grid item 1</div>
+    <div class="grid-item-2">grid item 2</div>
+    <div class="grid-item-3">grid item 3</div>
+    <div class="grid-item-4">grid item 4</div>
+    <div class="grid-item-5">grid item 5</div>
+    <div class="grid-item-6">grid item 6</div>
+    <div class="grid-item-7">grid item 7</div>
+    <div class="grid-item-8">grid item 8</div>
+    <div class="grid-item-9">grid item 9</div>
+    <div class="grid-item-10">grid item 10</div>
+  </div>
+  <br>
+
+  <div class="grid-container-2">
+    <div class="grid-item-1">grid item 1</div>
+    <div class="grid-item-2">grid item 2</div>
+    <div class="grid-item-3">grid item 3</div>
+    <div class="grid-item-4">grid item 4</div>
+    <div class="grid-item-5">grid item 5</div>
+    <div class="grid-item-6">grid item 6</div>
+    <div class="grid-item-7">grid item 7</div>
+    <div class="grid-item-8">grid item 8</div>
+    <div class="grid-item-9">grid item 9</div>
+    <div class="grid-item-10">grid item 10</div>
+  </div>
+
+  <br>
+  <div class="grid-container-3">
+    <div class="grid-item-1">grid item 1</div>
+    <div class="grid-item-2">grid item 2</div>
+    <div class="grid-item-3">grid item 3</div>
+    <div class="grid-item-4">grid item 4</div>
+    <div class="grid-item-5">grid item 5</div>
+    <div class="grid-item-6">grid item 6</div>
+    <div class="grid-item-7">grid item 7</div>
+    <div class="grid-item-8">grid item 8</div>
+    <div class="grid-item-9">grid item 9</div>
+    <div class="grid-item-10">grid item 10</div>
+  </div>
+
+  <br>
+
+  <div class="grid-container-4">
+    <div class="grid-item-1">grid item 1</div>
+    <div class="grid-item-2">grid item 2</div>
+    <div class="grid-item-3">grid item 3</div>
+    <div class="grid-item-4">grid item 4</div>
+    <div class="grid-item-5">grid item 5</div>
+    <div class="grid-item-6">grid item 6</div>
+    <div class="grid-item-7">grid item 7</div>
+    <div class="grid-item-8">grid item 8</div>
+    <div class="grid-item-9">grid item 9</div>
+    <div class="grid-item-10">grid item 10</div>
+  </div>
+  <br>
+</body>
+
+</html>

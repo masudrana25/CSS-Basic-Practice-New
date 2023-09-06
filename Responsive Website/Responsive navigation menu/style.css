@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: large;
+}
+
+
+.navbar{
+  background-color: cadetblue;
+  height: 35px;
+  padding: 20px;
+}
+
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+
+a:hover{
+  background-color: green;
+}
+
+/* For Small Device */
+
+@media screen and (max-width: 768px) {
+  .navbar ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar{
+  background-color: rgb(123, 236, 16);
+  height: 200px;
+  padding: 20px;
+}
+
+}
