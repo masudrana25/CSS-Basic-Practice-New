@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Skew </title>
+  <style>
+    div {
+      background-color: cadetblue;
+      color: white;
+      font-weight: bold;
+      border: 2px solid red;
+      padding: 10px;
+      margin: 10px;
+      height: 200px;
+      width: 200px;
+      margin: 0 auto;
+    }
+
+    .div-1 {
+      transform: skew(20deg);
+    }
+
+    .div-2 {
+      transform: skew(20deg, 10deg)
+    }
+
+    .div-3 {
+      transform: skewX(20deg)
+    }
+
+    .div-4 {
+      transform: skewY(20deg)
+    }
+  </style>
+</head>
+
+<body>
+  <h1> Skew : original size er cheye boro or choto hobey.</h1>
+  <br> <br><br>
+  <div class="div-1">div-1 <br>transform: skew(10deg);</div> <br><br>
+  <div class="div-2">div-2 <br> transform: skew(20deg,10deg)</div><br><br>
+  <div class="div-3">div-3 <br>transform: skewX(20deg)</div><br><br>
+  <div class="div-4">div-4 <br>transform: skewY(20deg)</div> <br><br>
+</body>
+
+</html>
