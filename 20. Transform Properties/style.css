@@ -42,6 +42,7 @@ body{
     }
 .div-3:hover{
   transform: scale(2);
+  transition: 3s;
 }
 
 .div-4{

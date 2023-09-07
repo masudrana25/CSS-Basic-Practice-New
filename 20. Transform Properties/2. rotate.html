@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translate</title>
+  <style>
+    div {
+      background-color: cadetblue;
+      color: white;
+      font-weight: bold;
+      border: 2px solid red;
+      padding: 10px;
+      margin: 10px;
+      height: 200px;
+      width: 200px;
+      display: inline-block;
+    }
+
+    .div-1 {
+      transform: rotate(30deg);
+    }
+
+    .div-2 {
+      transform: rotate(-30deg);
+    }
+
+    .div-3 {
+      transform: rotate(45deg);
+    }
+
+    .div-4 {
+      transform: rotate(180deg);
+    }
+
+    .div-5 {
+      transition: transform 3s;
+    }
+
+    .div-5:hover {
+      transform: rotate(50deg);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Rotate : original position thekey 100px,100px durey sorey gachy.</h1>
+
+  <div class="div-1">div-1 <br> transform: rotate(30deg);</div>
+  <div class="div-2">div-2 <br> transform: rotate(-30deg);</div>
+  <div class="div-3">div-3 <br> transform: rotate(45deg);</div>
+  <div class="div-4">div-4 <br> transform: rotate(180deg); </div>
+  <div class="div-5">div-5 <br> transition: transform 3s; <br> transform: rotate(50deg); </div>
+</body>
+
+</html>
