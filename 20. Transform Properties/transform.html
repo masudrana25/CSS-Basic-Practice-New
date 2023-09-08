@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Properties</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+            margin-bottom: 10px;
+        }
+        .inner1{
+            border: 1px solid blue;
+            transform: scale(.5);
+            text-align: center;
+            font-size: 35px;
+        }
+        .inner2{
+            border: 1px solid blue;
+            transform: rotate(45deg) scale(.5);
+            text-align: center;
+            font-size: 35px;
+        }
+        .inner3{
+            border: 1px solid blue;
+            transform: translateX(30px) scale(0.75);
+            text-align: center;
+            font-size: 35px;
+        }
+        .inner4{
+            border: 1px solid blue;
+            transform: translateY(30px) scale(0.75);
+            text-align: center;
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box outer">
+        <div class="box inner1">box-1</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner2">box-2</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner3">box-3</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner4">box-4</div>
+    </div>
+</body>
+</html>

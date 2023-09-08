@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes Ball_Animation {
+            0%{
+                left: 0px;
+                top: 0px;
+                background-color: yellow;
+            }
+            50%{
+                left: 400px;
+                top: 100px;
+                background-color: red;
+            }
+            100%{
+                left: 800px;
+                top: 0px;
+                background-color: yellow;
+            }
+        }
+       
+        .stage:hover .ball{
+            animation: Ball_Animation 3s ease-in-out 1s infinite alternate;
+        }
+        .stage{
+            height: 200px;
+            min-width: 800px;
+            background-color: antiquewhite;
+        }
+        .ball{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            border-radius: 50%;
+            position: absolute;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

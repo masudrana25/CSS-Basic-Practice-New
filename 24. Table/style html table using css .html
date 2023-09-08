@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Table Style With CSS</title>
+  <style>
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    thead>tr {
+      background-color: cadetblue;
+      color: white;
+      height: 50px;
+    }
+
+    tbody > tr:nth-child(odd){
+      background-color: darkgray;
+    }
+
+    tbody > tr:nth-child(even){
+      background-color: rgb(222, 236, 14);
+    }
+
+    tbody > tr:hover{
+      background-color: rgb(17, 31, 230);
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>Students Details</caption>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>GPA</th>
+        <th>Phone</th>
+        <th>Bio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>101</td>
+        <td>Rabeya</td>
+        <td>3.5</td>
+        <td>017537645734</td>
+        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente et, atque sit eligendi eum asperiores
+          ullam tempora ratione dicta esse </td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Rumel</td>
+        <td>3.6</td>
+        <td>018675457485845</td>
+        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente et, atque sit eligendi eum asperiores
+          ullam tempora
+          ratione dicta esse</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Rabeya</td>
+        <td>3.5</td>
+        <td>017537645734</td>
+        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente et, atque sit eligendi eum asperiores
+          ullam
+          tempora ratione dicta esse </td>
+      </tr>
+      <tr>
+        <td>104</td>
+        <td>Rabeya</td>
+        <td>3.5</td>
+        <td>017537645734</td>
+        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente et, atque sit eligendi eum asperiores
+          ullam
+          tempora ratione dicta esse </td>
+      </tr>
+      <tr>
+        <td>105</td>
+        <td>Rabeya</td>
+        <td>3.5</td>
+        <td>017537645734</td>
+        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente et, atque sit eligendi eum asperiores
+          ullam
+          tempora ratione dicta esse </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

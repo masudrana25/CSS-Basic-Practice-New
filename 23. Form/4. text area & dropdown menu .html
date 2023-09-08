@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4. text area & dropdown menu</title>
+  <style>
+    select{
+      padding: 10px;
+      color: brown;
+      background-color: bisque;
+      font-weight: 700;
+      font-size: large;
+      border: 2px solid red;
+      border-radius: 10px;
+    }
+
+
+
+
+    textarea{
+      padding: 20px;
+      resize: none;
+      border: 2px solid red;
+      border-radius: 10px;
+    }
+
+    input[type="submit"], input[type="reset"]{
+      padding: 8px 15px;
+      margin: 5px;
+      border: 1px solid blue;
+      border-radius: 10px;
+      background-color: blue;
+      color: whitesmoke;
+      font-weight: 900;
+      font-size: large;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover{
+      background-color: blueviolet;
+    }
+
+    input[type="reset"]:hover{
+      background-color: blueviolet;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+
+    <select name="course" id="course">
+      <option value="C-Programming">C-Programming</option>  
+      <option value="JS">JS</option>
+      <option value="Python">Python</option>
+    </select>
+
+    <br> <br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="write your message"></textarea> <br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </div>
+</body>
+</html>
