@@ -1,0 +1,71 @@
+/* For All Start */
+*{
+  margin: 0;
+  padding: 0;
+}
+/* For All End */
+
+
+
+/* Header Section Start */
+header{
+  background-color: cadetblue;
+   padding: 2%;
+}
+
+.header-image #icon{
+  font-size: 80px;
+  color: blue;
+}
+
+.section-01{
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.section-02{
+  margin-bottom: 15px;
+}
+
+.section-02 h1{
+  text-align: center; 
+  color: white; 
+  font-size: 40px;
+}
+
+
+/* Navbar Section Start */
+.nav{
+  margin: 0px 20px;
+}
+.nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav ul li{
+  box-sizing: border-box;
+  background-color: rgb(26, 73, 75);
+  margin: 10px 0px;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+  text-align: center;
+  border-radius: 40px;
+  text-transform: uppercase;
+}
+
+.nav ul li a{
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.nav ul li:hover{
+  background-color: blue;
+}
+/* Navbar Section End */
+
+
+/* Header Section End */

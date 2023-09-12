@@ -1,0 +1,79 @@
+/* For All Start */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+/* For All End */
+
+
+
+/* Header Section Start */
+header{
+  background-color: cadetblue;
+  padding: 1%;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-image #icon{
+  font-size: 80px;
+  color: blue;
+}
+
+.section-01{
+  text-align: center;
+}
+
+.section-02 h1{
+  text-align: center; 
+  color: white; 
+  font-size: 40px;
+}
+
+/* Header Navbar Section Start */
+.nav{
+  margin-left: 200px;
+}
+.nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav ul li{
+  display: inline;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.nav ul li a:hover{
+  background-color: blue;
+}
+/* Header Navbar Section End */
+
+/* Header Section End */
