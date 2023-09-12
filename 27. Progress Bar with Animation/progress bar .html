@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress Bar</title>
+  <style>
+    .progress-bar {
+      box-sizing: border-box;
+      height: fit-content;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding: 10px;
+      border: 1px solid rgb(231, 7, 7);
+      background-color: rgb(240, 232, 232);
+      width: 100%;
+    }
+
+    .progress-bar h3 {
+      margin: 0%;
+    }
+
+    .common-progress-bar {
+      box-sizing: border-box;
+      background-color: rgb(99, 94, 104);
+      height: 25px;
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    .progress-bar .common-progress-bar>span {
+      box-sizing: border-box;
+      display: block;
+      background-color: blueviolet;
+      height: 25px;
+      border-radius: 10px;
+      width: 0%;
+    }
+
+    .progress-bar-1 {
+      animation-name: progress-bar-1;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes progress-bar-1 {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 85%;
+      }
+    }
+
+    .progress-bar-2 {
+      animation-name: progress-bar-2;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes progress-bar-2 {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 75%;
+      }
+    }
+
+    .progress-bar-3 {
+      animation-name: progress-bar-3;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes progress-bar-3 {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 65%;
+      }
+    }
+
+    .progress-bar-4 {
+      animation-name: progress-bar-4;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes progress-bar-4 {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 50%;
+      }
+    }
+
+
+    .progress-bar-5 {
+      animation-name: progress-bar-5;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes progress-bar-5 {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 40%;
+      }
+    }
+
+    .progress-bar-6 {
+      animation-name: progress-bar-6;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes progress-bar-6 {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 30%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="text-align: center;">Progress Bar</h1>
+
+  <div>
+
+    <div class="progress-bar">
+      <h3>HTML</h3>
+      <div class="common-progress-bar">
+        <span class="progress-bar-1"></span>
+      </div>
+
+    </div>
+
+    <div class="progress-bar">
+      <h3>CSS</h3>
+      <div class="common-progress-bar">
+        <span class="progress-bar-2"></span>
+      </div>
+    </div>
+
+    <div class="progress-bar">
+      <h3>JAVASCRIPT</h3>
+      <div class="common-progress-bar">
+        <span class="progress-bar-3"></span>
+      </div>
+    </div>
+
+    <div class="progress-bar">
+      <h3>NODE JS</h3>
+      <div class="common-progress-bar">
+        <span class="progress-bar-4"></span>
+      </div>
+    </div>
+
+    <div class="progress-bar">
+      <h3>EXPRESS JS</h3>
+      <div class="common-progress-bar">
+        <span class="progress-bar-5"></span>
+      </div>
+    </div>
+
+    <div class="progress-bar">
+      <h3>MONGODB</h3>
+      <div class="common-progress-bar">
+        <span class="progress-bar-6"></span>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
