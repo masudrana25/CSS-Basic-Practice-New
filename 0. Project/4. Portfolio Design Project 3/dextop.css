@@ -17,6 +17,18 @@
 .col-11{width: 91.66%;}
 .col-12{width: 100%;}
 
+
+.common-dotted-hr{
+  margin: 0 auto;
+  border-style: dotted;
+  border-bottom: none;
+  color: white;
+  width: 70px;
+  border-width: 10px;
+}
+
+
+
 /* For All End */
 
 
@@ -77,3 +89,390 @@ header{
 /* Header Navbar Section End */
 
 /* Header Section End */
+
+
+
+
+
+/* Main Section Start */
+
+
+/* Top Banner Section Start */
+.top-banner{
+  padding: 2% 5%;
+}
+
+.icon-top{
+  text-align: right;
+  font-size: 100px;
+}
+
+.icon-bottom{
+  text-align: left;
+  font-size: 100px;
+}
+
+.icon-top i:hover{
+  transition: 3s;
+  transform: rotate(360deg);
+}
+
+.icon-bottom i:hover{
+  transition: 3s;
+  transform: rotate(360deg);
+}
+
+.banner-text{
+  text-align: center;
+  padding: 3% 20%;
+}
+
+.banner-text h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.banner-text p{
+  padding-top: 10px;
+  font-size: 20px;
+}
+/* Top Banner Section End */
+
+
+/* About Me Section Start  */
+.about-me-section{
+  box-sizing: border-box;
+  background-color: cadetblue;
+  padding: 10px;
+}
+
+.about-me-title{
+  margin: 1% 0px 1% 0px;
+  text-align: center;
+}
+
+.about-me-section-body{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 50px 0px;
+}
+
+.about-me-section-body::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about-me-photo{
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.about-me-photo img{
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 400px;
+}
+
+.about-me-description{
+  box-sizing: border-box;  
+  text-align: left;
+  color: white;
+}
+
+.about-me-description p{
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.about-me-hr{
+  border: 2px solid;
+  margin: 3% auto;
+}
+
+.about-me-description h4{
+  font-size: 19px
+}
+
+.about-me-description button a{
+  border: none;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  font-size: 23px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* About Me Section End */
+
+
+
+
+
+/* Experience Section Start */
+.experience-section{
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-section .experience-section-hr{
+  border: 2px solid white;
+  margin: 10px;
+}
+
+
+.experience-section::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.card{
+  margin: 20px;
+  box-sizing: border-box;
+  background-color: gray;
+   border-radius: 10px;
+   padding: 10px;
+}
+.card .card-image{
+  text-align: center;
+  margin: 20px;
+}
+
+.card .card-image img{
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.card-title{
+  margin: 10px;
+  color: white;
+  background-color:rgb(48, 46, 46);
+  text-align: center;
+  padding: 10px;
+}
+
+.card-description{
+  box-sizing: border-box;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.card-description h6{
+  font-size: 20px;
+}
+
+
+/* Skill Experience start */
+.skill-experience .card-description ul{
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.progress-bar-div{
+  box-sizing: border-box;
+  margin-right: 40px;
+  height: 15px;
+  background-color: rgb(88, 80, 80);
+  border-radius: 10px;
+}
+
+.progress-bar-div > span{
+  
+  box-sizing: border-box;
+  width: 0%;
+  background-color: blue;
+  margin-right: 40px;
+  height: 15px;
+  border-radius: 10px;
+  display: block;
+}
+
+/* .progress-bar-span{
+  box-sizing: border-box;
+  width: 0%;
+  background-color: blue;
+  margin-right: 40px;
+  height: 15px;
+  border-radius: 10px;
+  display: block;
+} */
+
+.progress-bar-div .html{
+  animation-name: html_animation;  
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes html_animation {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+
+.progress-bar-div .css{
+  animation-name: css;  
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes css {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 88%;
+  }
+}
+
+
+.progress-bar-div .js{
+  animation-name: js;  
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes js {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+
+.progress-bar-div .bootstrap{
+  animation-name: bootstrap;  
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes bootstrap {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 84%;
+  }
+}
+
+
+.progress-bar-div .jquery{
+  animation-name: jquery;  
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes jquery {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+.progress-bar-div .node{
+  animation-name: node;  
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes node {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 65%;
+  }
+}
+
+
+.progress-bar-div .express{
+  animation-name: express;  
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes express {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+
+.progress-bar-div .github{
+  animation-name: github;  
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes github {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+
+.progress-bar-div .react{
+  animation-name: react;  
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes react {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Skill Experience end   */
+
+/* Experience Section End */
+
+
+
+
+
+
+
+
+
+/* Main Section End */
