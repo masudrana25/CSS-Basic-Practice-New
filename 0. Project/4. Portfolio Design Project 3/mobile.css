@@ -465,13 +465,13 @@ header{
 }
 
 .contact-message textarea{
+  
   border: none;
-  border-radius: 10px;
-    text-align: center;
-  font-weight: 900;
-  font-size: 18px;
   width: 100%;
-  color: rgb(85, 80, 80);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 17px;
   padding-top: 20px;
 }
 
@@ -487,6 +487,7 @@ header{
   padding: 10px 20px;
   border-radius: 10px;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .ways-to-connect-title h1{
@@ -503,13 +504,21 @@ header{
   text-align: center;
 }
 
-.ways-to-connect-description > div > a> img{
-  border-radius: 50%;
+.ways-to-connect-description > div > a> i{
   padding: 10px;
+  background-color: white;
+  margin:10px;
+  border-radius: 10%;
+  padding: 10px;
+  font-size: 35px;
 }
 
-.ways-to-connect-description > div > img:hover{
-  opacity: 0.5;
+.ways-to-connect-description .youtube{
+  color: red;
+}
+
+.ways-to-connect-description > div > a> i:hover{
+  background-color: gray;
 }
 /* Contact Section End */
 /* Main Section End */
