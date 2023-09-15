@@ -408,20 +408,141 @@ header{
     width: 80%;
   }
 }
-
-
-
-
-
-
-
-
-
 /* Skill Experience end   */
-
 /* Experience Section End */
 
+/* Contact Section Start */
+  .contact-section{
+    background-color: cadetblue;
+    padding: 5% 10%;
+  }
 
+  .achievement-title h1{
+    color: white;
+    text-align: center;
+  }
 
+  .achievement-title{
+    margin-bottom: 15px;
+  }
 
+  .achievement-description{
+    color: white;
+    text-align: justify;
+    margin: 15px 0px;
+  }
+
+.contact-me-title{
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contact-me-sent-message{
+  text-align: center;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.contact-name input{
+  border: none;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.contact-email input{
+    border: none;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.contact-message textarea{
+  border: none;
+  border-radius: 10px;
+    text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  width: 100%;
+  color: rgb(85, 80, 80);
+  padding-top: 20px;
+}
+
+.contact-me-button{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contact-me-button button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.ways-to-connect-title h1{
+  color: white;
+  text-align: center;
+}
+
+.ways-to-connect-title{
+  margin-bottom: 15px;
+}
+
+.ways-to-connect-description{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ways-to-connect-description > div > a> img{
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.ways-to-connect-description > div > img:hover{
+  opacity: 0.5;
+}
+/* Contact Section End */
 /* Main Section End */
+
+/* footer section start */
+footer{
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+}
+
+.footer-nav ul{
+  list-style-type: none;
+}
+
+.footer-nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.footer-nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.footer-copyright{
+  text-align: center;
+  font-weight: 600;
+}
+
+/* footer section start */
+
