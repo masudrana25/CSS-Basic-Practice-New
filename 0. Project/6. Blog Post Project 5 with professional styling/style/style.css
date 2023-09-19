@@ -28,3 +28,103 @@ font-family: 'Lora', serif;
 font-family: 'Roboto', sans-serif; */
 
 /* Reset code & common code ends */
+
+/* Header Start */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 2rem 1rem;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  min-height: 5vh;
+
+}
+
+.logo-figure{
+  border: 1px solid white;
+}
+
+.logo{
+  font-size: 4rem;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 2rem;
+  padding: 1rem;
+  transition: all 0.4s;
+}
+
+nav li:last-child{
+  margin-right: 0px;
+}
+
+nav li:hover{
+  background-color: blueviolet;
+  border-radius: 0.6rem;
+}
+
+.nav-link{
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+header a{
+  color: white;
+}
+
+
+
+/* Header End */
+
+
+
+
+
+
+
+
+
+/* Responsive Site Design Starts*/
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+  html{
+    font-size: 48.5%;
+  }
+  header{
+    flex-direction: column;
+  }
+  nav ul{
+    padding-left: 2.5rem;
+  }
+  nav li{
+    display: block;
+    margin-right: 0;
+    margin: 1rem 0;
+  }
+
+
+}
+
+@media screen and (max-width: 400px) {
+  
+}
+
+
+
+
+
+/* Responsive Site Design Ends*/
