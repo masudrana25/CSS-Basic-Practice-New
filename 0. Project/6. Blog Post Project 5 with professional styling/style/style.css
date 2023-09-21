@@ -22,6 +22,12 @@ body{
   margin: auto;
   box-shadow: .1rem .1 rem .1rem #c4c4c4, -.1rem 0rem .1rem #c4c4c4;
 }
+
+.text-justify{
+  text-align:justify;
+}
+
+
 /* 
 font-family: 'Italianno', cursive;
 font-family: 'Lora', serif;
@@ -77,14 +83,48 @@ nav li:hover{
 header a{
   color: white;
 }
-
-
-
 /* Header End */
 
+/* Banner Section Start */
+#banner-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1rem;
+  min-height: 95vh;
+}
+
+#banner-section article{
+  flex-basis: 50%;
+  margin: 1rem;
+}
+.banner-heading{
+  display: inline-block;
+  font-size: 4rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.banner-description{
+  font-size: 1.8rem;
+}
+
+#banner-section aside{
+  flex-basis: 50%;
+  text-align: center;
+}
+
+aside img{ 
+  height: 55rem;
+  width: 55rem;
+  border: 0.3rem solid black;
+}
 
 
 
+/* Banner Section ends */
 
 
 
