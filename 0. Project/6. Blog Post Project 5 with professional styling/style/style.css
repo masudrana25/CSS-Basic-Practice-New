@@ -48,7 +48,6 @@ header{
   top: 0;
   z-index: 10;
   min-height: 5vh;
-
 }
 
 .logo-figure{
@@ -94,10 +93,6 @@ header a{
   min-height: 95vh;
 }
 
-#banner-section article{
-  flex-basis: 50%;
-  margin: 1rem;
-}
 .banner-heading{
   display: inline-block;
   font-size: 4rem;
@@ -107,13 +102,18 @@ header a{
   margin-bottom: 1.5rem;
 }
 
-.banner-description{
-  font-size: 1.8rem;
-}
-
 #banner-section aside{
   flex-basis: 50%;
   text-align: center;
+}
+
+#banner-section article{
+  flex-basis: 50%;
+  margin: 1rem;
+}
+
+.banner-description{
+  font-size: 1.8rem;
 }
 
 aside img{ 
@@ -121,9 +121,6 @@ aside img{
   width: 55rem;
   border: 0.3rem solid black;
 }
-
-
-
 /* Banner Section ends */
 
 
@@ -133,7 +130,22 @@ aside img{
 /* Responsive Site Design Starts*/
 
 @media screen and (max-width: 992px) {
-  
+/* Banner Starts */
+  #banner-section{
+    flex-direction: column;
+  }
+
+  .banner-description{
+    width: 60%;
+  }
+
+  #banner-section article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+/* Banner Ends */
 }
 
 @media screen and (max-width: 768px) {
@@ -141,21 +153,43 @@ aside img{
 }
 
 @media screen and (max-width: 600px) {
+/* common code starts */
   html{
     font-size: 48.5%;
   }
+/* common code Ends */
+
+/* Header Starts */
   header{
     flex-direction: column;
   }
+
   nav ul{
     padding-left: 2.5rem;
   }
+
   nav li{
     display: block;
     margin-right: 0;
     margin: 1rem 0;
   }
+/* Header Ends */
 
+/* Banner Starts */
+  #banner-section{
+    min-height: auto;
+  }
+
+  .banner-description{
+    width: 90%;
+  }
+
+  aside img{ 
+    height: auto;
+    width: 95%;
+    border: 0.3rem solid black;
+  }
+/* Banner Ends */
 
 }
 
