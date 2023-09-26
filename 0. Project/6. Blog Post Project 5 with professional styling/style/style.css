@@ -41,8 +41,8 @@ body{
 }
 
 .middle-heading{
-  font-size: 4rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -54,10 +54,14 @@ body{
 }
 
 .btn{
-  border-radius: 1.2rem;
+  border-radius: 0.8rem;
   text-transform: uppercase;
   font-size: 2rem;
   border: none;
+  cursor: pointer;
+  background-color: #E69F08;
+  padding: 0.8rem 5rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
 /* 
@@ -158,12 +162,12 @@ aside img{
 
 /* About Section Starts */
 #about-section{
-  background-color: gray;
+  background-color: #4C4C4C;
   padding: 2.8rem;
 }
 
 .about-heading{
-  color: white;
+  color: #FFFFFF;
 }
 
 .card-container{
@@ -175,10 +179,15 @@ aside img{
 }
 
 .card{
-  background-color: #c4c4c4;
+  box-sizing: border-box;
+  background-color: #A09D9D;
   padding: 1.6rem 1rem;
   margin-right: 3rem;
   border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   transition: transform 0.4s;
 }
@@ -197,16 +206,12 @@ aside img{
 
 .card-button{
   padding: 2rem 0;
+  width: 100%;
 }
 
 .about-button{
-  background-color: yellow;
-  padding: 0.8rem 5rem;
+  width:90%;
 }
-
-
-
-
 /* About Section Ends */
 
 /* Responsive Site Design Starts*/
@@ -228,6 +233,33 @@ aside img{
     align-items: center;
   }
 /* Banner Ends */
+
+
+/* About Section Starts */
+  .card-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .card{
+    width: 70%;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    margin-right: 0;
+  }
+
+  .card:last-child{
+    margin-bottom: 0;
+  }
+
+  .about-button{
+  width:80%;
+}
+/* About Section Ends */
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -272,6 +304,17 @@ aside img{
     border: 0.3rem solid black;
   }
 /* Banner Ends */
+
+/* About Section Starts */
+  .card{
+    width: 90%;
+  }
+/* About Section Ends */
+
+
+
+
+
 
 }
 
