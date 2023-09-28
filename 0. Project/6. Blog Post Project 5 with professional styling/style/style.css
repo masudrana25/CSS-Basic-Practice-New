@@ -64,6 +64,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.text-white{
+  color: white;
+}
+
 .btn{
   border-radius: 0.8rem;
   text-transform: uppercase;
@@ -73,6 +77,31 @@ body{
   background-color: #E69F08;
   padding: 0.8rem 5rem;
   box-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.input{
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+}
+
+.input:focus{
+  border: none;
+}
+
+textarea{
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  resize: none;
+}
+
+textarea:focus{
+  border: none;
+}
+
+.form-control{
+  padding: .8rem;
 }
 
 /* 
@@ -265,6 +294,7 @@ aside img{
   width: 75%;
   margin: 0 auto;
   margin-top: 6%;
+  padding-bottom: 5rem;
 }
 
 .blog-posts-heading{
@@ -297,11 +327,95 @@ aside img{
 .blog-posts-button{
   width: 50%;
 }
-
 /* Blog Posts Section Ends */
 
 
+/* Contact Section Starts */
+#contact-section{
+  background-color: #4C4C4C;
+  padding-bottom: 5rem;
+}
 
+.contact-heading{
+  padding: 5rem 0rem;
+}
+
+.contact-details{
+  width: 40%;
+  margin: 0 auto;
+  padding: 1.6rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem black, -0.1rem 0rem 0.1rem black;
+}
+
+.form-control{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-btn{
+  justify-content: end;
+}
+
+.contact-form label{
+  font-size: 2rem;
+}
+
+.contact-details textarea{
+  width: 65%;
+  height: 8rem;
+  padding: 5% 5% 5% 2%;
+  font-size: 1.7rem;
+}
+
+.contact-details input{
+  width: 65%;
+  height: 6rem;
+  padding: 2%;
+  font-size: 1.7rem;
+}
+
+.contact-button{
+  font-size: 1.6rem;
+}
+/* Contact Section Ends */
+
+/* Footer Section Starts */
+footer{
+  background-color: black;
+  padding: 2rem 1rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-text{
+  flex: 1;
+  font-size: 2rem;
+}
+
+.contact-icon-link{
+  flex: 1;
+  color: white;
+  font-size: 3rem;
+
+  display: flex;
+  justify-content: end;
+}
+
+.contact-icon-link i{
+    padding-left: 4rem;
+}
+
+.contact-icon-link i:last-child{
+  padding-right: 1rem;
+}
+
+.contact-icon-link i:first-child{
+  padding-left: 0;
+}
+/* Footer Section Ends */
 
 /* Responsive Site Design Starts*/
 
