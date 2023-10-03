@@ -29,5 +29,24 @@ img{
   height: auto;
 }
 
+.flex-both-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* Common & reset code ends */
+
+
+/* Navbar Start Here */
+
+
+/* Navbar End Here */
+
+
+
+
+
+
+
