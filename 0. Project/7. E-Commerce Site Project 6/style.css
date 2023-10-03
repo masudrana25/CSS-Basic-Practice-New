@@ -21,6 +21,7 @@
 }
 
 html{
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -35,11 +36,56 @@ img{
   align-items: center;
 }
 
+.text-center{
+  text-align: center;
+}
+
 
 /* Common & reset code ends */
 
 
+/* menu-bar starts */
+#menu-bar{
+  display: none;
+}
+/* menu-bar ends */
+
+
 /* Navbar Start Here */
+
+
+
+.navbar{
+  box-sizing: border-box;
+  min-height: 6vh;
+  background-color: #0BB530;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.nav-profile-img{
+  height: 5.2rem;
+  width: 5.2rem;
+  border-radius: 50%;
+  border: .2rem solid white;
+  filter: saturate(0);
+}
+
+.nav-profile-img:hover{
+  filter: saturate(1);
+}
+
+.navbar a{
+  color: white;
+  font-size: 2rem;
+  font-family: fantasy;
+  transition: all 0.3s;
+}
+
+.navbar a:hover{
+  color: black;
+  text-decoration: overline;
+}
 
 
 /* Navbar End Here */
@@ -50,3 +96,22 @@ img{
 
 
 
+
+
+
+
+@media screen and (max-width: 768px) {
+
+/* menu bar handle starts */
+ #menu-bar{
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.navbar-hidden{
+  display: none;
+}
+/* menu bar handle ends */
+}
