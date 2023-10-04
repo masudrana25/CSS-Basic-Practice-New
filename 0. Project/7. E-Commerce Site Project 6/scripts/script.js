@@ -7,6 +7,4 @@ menu_bar.addEventListener('click', function () {
   } else {
     menu.classList.add('navbar-hidden');
   }
-
-  console.log('this.click');
 });

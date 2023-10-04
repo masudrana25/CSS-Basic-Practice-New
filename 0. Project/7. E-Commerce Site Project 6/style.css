@@ -52,9 +52,6 @@ img{
 
 
 /* Navbar Start Here */
-
-
-
 .navbar{
   box-sizing: border-box;
   min-height: 6vh;
@@ -87,6 +84,32 @@ img{
   text-decoration: overline;
 }
 
+/* Sub-Navbar Starts */
+.sub-navbar{
+  background-color: #39874B;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.sub-navbar-header{
+  color: white;
+  font-size: 3rem;
+  font-family: fantasy;
+  transition: all 0.3s;
+}
+
+.sub-navbar-cart{
+  color: white;
+  font-size: 2rem;
+  font-family: fantasy;
+  transition: all 0.3s;
+}
+
+.sub-navbar a:hover{
+  color: black;
+  text-decoration: overline;
+}
+/* Sub-Navbar Ends */
 
 /* Navbar End Here */
 
@@ -113,5 +136,29 @@ img{
 .navbar-hidden{
   display: none;
 }
+
+.navbar {
+  flex-direction: column;
+}
+
+.navbar li{
+  margin-bottom: 1rem;
+}
+
+.navbar li:last-child{
+  margin-bottom: 0;
+}
+
+.sub-navbar {
+  flex-direction: column;
+}
+
+.sub-navbar li:first-child{
+   margin-bottom: 1.5rem;
+}
+
+
+
 /* menu bar handle ends */
+
 }
