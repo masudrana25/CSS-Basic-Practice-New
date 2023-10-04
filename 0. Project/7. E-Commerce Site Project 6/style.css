@@ -36,6 +36,12 @@ img{
   align-items: center;
 }
 
+.flex-space-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .text-center{
   text-align: center;
 }
@@ -44,7 +50,19 @@ img{
   color: white;
 }
 
+.input{
+  border: none;
+  padding: 1% 2%;
+}
 
+.btn{
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 1% 2%;
+
+}
 /* Common & reset code ends */
 
 
@@ -59,6 +77,8 @@ img{
 #menu{
   position: sticky;
   top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .navbar{
@@ -167,10 +187,72 @@ img{
 /* Main Section Ends  */
 
 /* Footer Section Starts  */
+footer{
+  background-color: #0BB530;
+  min-height:10vh;
+  padding: 1.5rem;
+  color: white;
+  font-size: 1.9rem;
+}
 
+.footer-subscribe{
+  flex: 1;
+  padding-left:5rem;
+}
+
+.footer-copyright{
+  flex: 1;
+  text-align: center;
+}
+
+.input-footer{
+  width: 30rem;
+  height: 3.6rem;
+}
+
+.btn-footer{
+  transition: var(--transition);
+  height: 3.6rem;
+}
+
+.btn-footer:hover{
+  background-color: #218037;
+}
 /* Footer Section Ends */
 
 
+@media screen and (max-width: 1024px) {
+
+/* Footer Section Starts  */
+footer{
+  flex-direction: column;
+  padding: 5%;
+}
+
+.footer-subscribe{
+  flex-direction: column;
+}
+
+.input-footer{
+  margin-top: 1rem;
+  padding: 3% 5%;
+}
+
+.btn-footer{
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  padding: 2% 3%;
+}
+
+.footer-subscribe{
+  padding-left: 0rem;
+}
+
+.footer-copyright{
+  margin-top: 1.8rem;
+}
+/* Footer Section Ends */
+}
 
 @media screen and (max-width: 768px) {
 
@@ -229,9 +311,4 @@ img{
 /* Main Section Starts  */
 
 /* Main Section Ends  */
-
-/* Footer Section Starts  */
-
-/* Footer Section Ends */
-
 }
