@@ -40,6 +40,10 @@ img{
   text-align: center;
 }
 
+.text-white{
+  color: white;
+}
+
 
 /* Common & reset code ends */
 
@@ -52,6 +56,11 @@ img{
 
 
 /* Navbar Start Here */
+#menu{
+  position: sticky;
+  top: 0;
+}
+
 .navbar{
   box-sizing: border-box;
   min-height: 6vh;
@@ -110,16 +119,56 @@ img{
   text-decoration: overline;
 }
 /* Sub-Navbar Ends */
-
 /* Navbar End Here */
 
+/* Header Start Here */
+#Banner{
+  background-image: url(./images/banner.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 78vh;
+  padding: 9rem 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.banner-floating-text{
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 5.5rem;
+  color: yellow;
+}
 
+#Banner .card{
+  background-color: #38A573;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  height: 12rem;
+  width: 25rem;
+  border-radius: 1.3rem;
+  justify-content: space-around;
+}
 
+.Banner-card-text{
+  font-size: 1.9rem;
+  font-weight: 650;
+  color: white;
+}
 
+#Banner .row{
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: space-around;
+}
+/* Header End Here */
 
+/* Main Section Starts  */
 
+/* Main Section Ends  */
 
+/* Footer Section Starts  */
+
+/* Footer Section Ends */
 
 
 
@@ -156,9 +205,33 @@ img{
 .sub-navbar li:first-child{
    margin-bottom: 1.5rem;
 }
-
-
-
 /* menu bar handle ends */
+
+/* Header Section Starts */
+#Banner{
+    padding: 2rem 0 4rem;
+}
+
+#Banner .row{
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#Banner .card{
+  margin-bottom: 4rem;
+}
+
+.banner-floating-text{
+  margin: 2rem auto;
+}
+/* Header Section Ends */
+
+/* Main Section Starts  */
+
+/* Main Section Ends  */
+
+/* Footer Section Starts  */
+
+/* Footer Section Ends */
 
 }
