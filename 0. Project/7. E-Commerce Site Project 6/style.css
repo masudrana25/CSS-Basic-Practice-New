@@ -62,10 +62,6 @@ img{
   margin-top: 1rem;
 }
 
-/* .input{
-  padding: 1.2rem;
-  font-size: 1.6rem;
-} */
 .btn{
   font-size: 1.4rem;
   font-weight: 300;
@@ -93,6 +89,7 @@ select{
   display: none;
 }
 /* menu-bar ends */
+
 
 /* Navbar Start Here */
 #menu{
@@ -351,15 +348,33 @@ main{
   background-color: #0BB530;
   color: white;
 }
-
 /* card design ends */
 
-/* Main Bar Ends Here */
-/* Main Bar Starts Here */
+/* Pagination starts */
+.pagination ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-/* Main Bar Ends Here */
+.pagination-btn{
+  padding: 1rem;
+  border-radius: 0;
+  border: 1px solid;
+  border-left: none;
+  transition: var(--transition);
+}
+.first-child{
+  border-left: 1px solid;
+}
 
+.pagination-btn:hover{
+  background-color: #218037;
+}
+/* Pagination Ends */
+/* Main Bar Ends Here */
 /* Main Section Ends  */
+
 
 /* Footer Section Starts  */
 footer{
@@ -394,7 +409,6 @@ footer{
   background-color: #218037;
 }
 /* Footer Section Ends */
-
 
 @media screen and (max-width: 1024px) {
 
@@ -486,6 +500,7 @@ footer{
 }
 /* menu bar handle ends */
 
+
 /* Header Section Starts */
 #Banner{
     padding: 2rem 0 4rem;
@@ -518,6 +533,13 @@ footer{
   box-sizing: border-box;
   width: 75%;
 }
+
+/* pagination starts  */
+.pagination-btn{
+  padding: 0.4rem;
+}
+/* pagination Ends  */
+
 /* Main Section Ends  */
 
 
