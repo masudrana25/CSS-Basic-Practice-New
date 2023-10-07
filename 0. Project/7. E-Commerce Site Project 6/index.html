@@ -86,7 +86,126 @@
 
   <!-- Main Section Starts -->
   <main>
+    <div id="side-bar">
+      <div class="categories">
+        <h2 class="main-heading"> Categories</h2>
+        <ul>
+          <li>
+            <input type="checkbox" name="phone" id="categories">
+            <label for="">Phone</label>
+          </li>
+          <li>
+            <input type="checkbox" name="tablets" id="categories">
+            <label for="">Tablets</label>
+          </li>
+          <li>
+            <input type="checkbox" name="televisions" id="categories">
+            <label for="">Televisions</label>
+          </li>
+          <li>
+            <input type="checkbox" name="computers" id="categories">
+            <label for="">Computers</label>
+          </li>
+          <li>
+            <input type="checkbox" name="headphones" id="categories">
+            <label for="">Headphones
+            </label>
+          </li>
 
+        </ul>
+      </div>
+
+      <div class="price-range">
+        <h2 class="main-heading"> Price Range</h2>
+        <ul>
+          <li>
+            <input type="radio" name="price" id="price-range">
+            <label for="">$0-$20</label>
+          </li>
+          <li>
+            <input type="radio" name="price" id="price-range">
+            <label for="">$21-$50</label>
+          </li>
+          <li>
+            <input type="radio" name="price" id="price-range">
+            <label for="">$51-$100</label>
+          </li>
+          <li>
+            <input type="radio" name="price" id="price-range">
+            <label for="">$101-$500</label>
+          </li>
+          <li>
+            <input type="radio" name="price" id="price-range">
+            <label for="">$501+
+            </label>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="shipping-options">
+        <h2 class="main-heading"> Shipping Options</h2>
+        <ul>
+          <li>
+            <input type="radio" name="shipping" id="shipping">
+            <label for="">Free</label>
+          </li>
+          <li>
+            <input type="radio" name="shipping" id="shipping">
+            <label for="">Paid</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="main-item">
+      <div class="search-bar">
+        <div class="sort-by">
+          <label for="">Sort By:</label>
+          <select name="sort-list" id="sort-list">
+            <option value="Most sold first">Most sold first</option>
+            <option value="Most rated first">Most rated first</option>
+            <option value="Cheapest first">Cheapest first</option>
+            <option value="Newest first">Newest first</option>
+            <option value="Biggest discount first">Biggest discount first</option>
+          </select>
+        </div>
+        <div class="search-product">
+          <input type="search" class="input search-input" name="search-product" id="search-product"
+            placeholder="Search Products">
+          <button class="btn btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="./images/product1.jpg" class="card-image" alt="Sony V-4 Headphone">
+          <div class="card-description">
+            <h5 class="card-heading margin-bottom">
+              Sony V-4 Headphone
+            </h5>
+            <hr class="card-dot margin-bottom">
+            <p class="card-details text-justify margin-bottom">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro impedit, nihil quia placeat autem
+              commodi... <span class="card-details-readMore">Learn More</span>
+            </p>
+            <p class="card-price text-left margin-bottom">
+              $225.99
+            </p>
+            <p class="card-rating text-left margin-bottom">
+              Rating: 4.5/5
+            </p>
+            <button class="btn btn-card" type="submit">Add To Cart</button>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+    </div>
   </main>
   <!-- Main Section Ends -->
 

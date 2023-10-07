@@ -45,23 +45,46 @@ img{
 .text-center{
   text-align: center;
 }
-
+.text-left{
+  text-align: left;
+}
+.text-justify{
+  text-align: justify;
+}
 .text-white{
   color: white;
 }
 
+.margin-bottom{
+  margin-bottom: 1rem;
+}
+.margin-top{
+  margin-top: 1rem;
+}
+
 .input{
-  border: none;
-  padding: 1% 2%;
+  padding: 1.2rem;
+  font-size: 1.6rem;
 }
 
 .btn{
-  border: none;
   font-size: 1.4rem;
   font-weight: 300;
   text-transform: uppercase;
   padding: 1% 2%;
+}
 
+.main-heading{
+  font-size: 3.5rem;
+}
+
+label{
+  font-size: 2rem;
+}
+
+select{
+  padding: 0.8rem;
+  font-size: 1.7rem;
 }
 /* Common & reset code ends */
 
@@ -71,7 +94,6 @@ img{
   display: none;
 }
 /* menu-bar ends */
-
 
 /* Navbar Start Here */
 #menu{
@@ -183,6 +205,105 @@ img{
 /* Header End Here */
 
 /* Main Section Starts  */
+main{
+  box-sizing: border-box;
+  padding: 4rem 1rem;
+}
+/* Side Bar Starts Here */
+#side-bar{
+  margin-bottom: 4rem;
+}
+
+.categories{
+  margin-bottom: 2rem;
+}
+
+.price-range{
+  margin-bottom: 2rem;
+}
+/* Side Bar Ends Here */
+
+/* Main Bar Starts Here */
+#main-item{
+  text-align: center;
+}
+
+.sort-by{
+  margin-bottom: 1.5rem;
+}
+
+.search-input{
+  width: 30rem;
+}
+
+.btn-search{
+  font-size: 2rem;
+  padding: .9rem;
+  margin-left: 0;
+  transition: var(--transition);
+}
+.btn-search i{
+  height: 21px;
+  width: 21px;
+}
+
+.btn-search:hover{
+  background-color: green;
+  color: white;
+}
+
+/* card design starts */
+.card{
+
+}
+
+.card-heading{
+  font-size: 2rem;
+}
+
+.card-details{
+  font-size: 1.7rem;
+  font-weight: 550;
+}
+
+.card-details-readMore{
+  cursor: pointer;
+  color: #0BB530;
+  font-size: 1.8rem;
+}
+
+.card-price{
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.card-rating{
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.btn-card{
+  box-sizing: border-box;
+  width: 85%;
+  background-color: #DBDBDB;
+  font-size: 1.8rem;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+  transition: var(--transition);
+}
+
+.btn-card:hover{
+  background-color: #0BB530;
+  color: white;
+}
+
+/* card design ends */
+
+/* Main Bar Ends Here */
+/* Main Bar Starts Here */
+
+/* Main Bar Ends Here */
 
 /* Main Section Ends  */
 
