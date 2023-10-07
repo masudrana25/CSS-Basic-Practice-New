@@ -1,7 +1,7 @@
 /* Common & reset code starts */
 :root{
   --border-radius : 0.6rem;
-  --box-shadow : 0.1rem 0.2rem 0.7rem rgba(205,202,202,0.5);
+  --box-shadow : 0.1rem 0.2rem 0.7rem rgba(24, 23, 23, 0.5);
 
   --primary-color : rgb(11,181,48);
   --secondary-color : rgba(36,122,55,0.9);
@@ -62,10 +62,10 @@ img{
   margin-top: 1rem;
 }
 
-.input{
+/* .input{
   padding: 1.2rem;
   font-size: 1.6rem;
-}
+} */
 .btn{
   font-size: 1.4rem;
   font-weight: 300;
@@ -211,6 +211,7 @@ main{
 /* Side Bar Starts Here */
 #side-bar{
   margin-bottom: 4rem;
+  flex: 1;
 }
 
 .categories{
@@ -223,22 +224,45 @@ main{
 /* Side Bar Ends Here */
 
 /* Main Bar Starts Here */
+.main-menu{
+  display: flex;
+  margin-top: 3rem;
+}
+
 #main-item{
   text-align: center;
+  flex: 3.5;
+}
+
+.search-bar{
+  box-sizing: border-box;
+  margin: 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-product{
+  flex: 1;
 }
 
 .sort-by{
   margin-bottom: 1.5rem;
+  margin: 0 auto;
+  flex: 1;
 }
 
 .search-input{
-  width: 30rem;
+  height: 3.9rem;
+  width: 24rem;
+  font-size: 1.6rem;
+  padding: .5rem;
 }
 
 .btn-search{
-  font-size: 2rem;
-  padding: .9rem;
-  margin-left: 0;
+  height: 3.9rem;
+  font-size: 1.6rem;
+  padding: .5rem;
   transition: var(--transition);
 }
 .btn-search i{
@@ -252,12 +276,43 @@ main{
 }
 
 /* card design starts */
+.card-container{
+  box-sizing: border-box;
+  margin: 4rem 0;
+  flex-wrap: wrap;
+}
 .card{
+  box-sizing: border-box;
+  margin: 1rem;
+  width: 30%;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+}
 
+.card:hover{
+  box-shadow: 0.1rem 0.2rem 1.3rem rgba(24, 23, 23, 0.5);
 }
 
 .card-heading{
   font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.dot{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.green{
+  background-color: #0BB530;
+}
+.black{
+  background-color: black;
+}
+.red{
+  background-color: red;
 }
 
 .card-details{
@@ -342,6 +397,28 @@ footer{
 
 
 @media screen and (max-width: 1024px) {
+
+  /* main starts */
+.card{
+  width:90%;
+}
+
+#side-bar{
+  flex: 1;
+}
+
+#main-item{
+  flex: 2;
+}
+
+.search-bar{
+  flex-direction: column;
+}
+.sort-by{
+  margin-bottom: 2rem;
+}
+
+  /* main ends  */
 
 /* Footer Section Starts  */
 footer{
@@ -429,6 +506,19 @@ footer{
 /* Header Section Ends */
 
 /* Main Section Starts  */
+.main-menu{
+  flex-direction: column;
+}
 
+.search-bar{
+  margin: 0 1rem;
+}
+
+.search-input{
+  box-sizing: border-box;
+  width: 75%;
+}
 /* Main Section Ends  */
+
+
 }
