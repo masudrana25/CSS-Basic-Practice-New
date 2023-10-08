@@ -485,7 +485,7 @@ footer{
   background-color: #F0F0F0;
   padding: 1rem;
   border: none;
-  width: 25%;
+  width: 50%;
   text-transform: uppercase;
   margin: 0 auto;
   font-size: 1.8rem;
@@ -506,22 +506,34 @@ footer{
 }
 
 .contact-section{
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .contact-message{
-  flex: 1;
+  width: 50%;
 }
 .contact-info{
-  flex: 1;
-  margin: 0 3rem;
+  width: 50%;
+  padding: 2rem;
 }
+
+.contact-form{
+  box-sizing: border-box;
+  box-shadow: var(--box-shadow);
+  width: 95%;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
 .map iframe{
   box-sizing: border-box;
   height: 28rem;
   width: 100%;
 }
+
 .address,.phone-number{
   text-align: center;
   font-size: 1.8rem;
@@ -531,13 +543,7 @@ footer{
 .contact-heading{
   margin-bottom: 6rem;
 }
-.contact-form{
-  box-sizing: border-box;
-  box-shadow: var(--box-shadow);
-  width: 95%;
-  margin: 0 auto;
-  padding: 2rem 2rem;
-}
+
 /*Contact Section Ends */
 
 /* Profile Section Starts */
@@ -578,27 +584,23 @@ footer{
 
 @media screen and (max-width: 1024px) {
 
-  /* main starts */
+/* main starts */
 .card{
   width:90%;
 }
-
 #side-bar{
   flex: 1;
 }
-
 #main-item{
   flex: 2;
 }
-
 .search-bar{
   flex-direction: column;
 }
 .sort-by{
   margin-bottom: 2rem;
 }
-
-  /* main ends  */
+/* main ends  */
 
 /* Footer Section Starts  */
 footer{
@@ -629,6 +631,40 @@ footer{
   margin-top: 1.8rem;
 }
 /* Footer Section Ends */
+
+
+/* Registration Starts */
+.registration-form,.login-form{
+  width: 80%;
+}
+.one-input > input,textarea{
+  width: 65%;
+}
+/* Registration Ends */
+
+/* contact starts */
+.contact-section{
+  flex-direction: column;
+}
+.contact-message{
+  width: 100%;
+}
+.contact-info{
+  width: 100%;
+  padding: 0 10%;
+  margin-top: 4rem;
+}
+.contact-form{
+  width: 80%;
+}
+/* contact ends */
+
+/* profile starts */
+.profile-section{
+  width: 60%;
+}
+/* profile ends */
+
 }
 
 @media screen and (max-width: 768px) {
@@ -705,8 +741,43 @@ footer{
   padding: 0.4rem;
 }
 /* pagination Ends  */
-
 /* Main Section Ends  */
 
+
+/* Registration && Login Starts */
+.registration-button,.login-button,.contact-button{
+  width: 50%;
+}
+#registration,#login{
+  margin: 4rem 1rem;
+  min-height: 50vh;
+}
+.one-input{
+  flex-direction: column;
+}
+.registration-form,.login-form{
+  width: 99%;
+}
+.one-input > input,textarea{
+  margin-top: 1.5rem;
+  width: 90%;
+}
+/* Registration && Login Ends */
+
+/* Contact Starts */
+.contact-info{
+  padding: 0 5%;
+}
+.contact-form{
+  width: 90%;
+}
+/* Contact Ends */
+
+
+/* profile starts */
+.profile-section{
+  width: 85%;
+}
+/* profile ends */
 
 }
