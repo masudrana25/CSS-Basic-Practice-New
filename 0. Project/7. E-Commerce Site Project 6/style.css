@@ -437,18 +437,18 @@ footer{
 }
 /* Footer Section Ends */
 
-/* Registration Section Starts */
-#registration{
+/* Registration && Login && Contact Section Starts */
+#registration,#login{
   margin: 4rem 6rem;
   min-height: 50vh;
 }
 
-.registration-heading{
+.registration-heading,.login-heading,.contact-heading{
   font-size: 4rem;
   margin-bottom: 3rem;
 }
 
-.registration-form{
+.registration-form,.login-form{
   box-sizing: border-box;
   box-shadow: var(--box-shadow);
   width: 60%;
@@ -470,17 +470,17 @@ footer{
   font-size: 2.3rem;
 }
 
-.registration-textArea{
+.registration-textArea,.contact-textArea{
   box-sizing: border-box;
   resize: none;
   min-height: 7rem;
 }
 
-.regi-btn{
+.regi-btn,.login-btn,.contact-btn{
   text-align: center;
 }
 
-.registration-button{
+.registration-button,.login-button,.contact-button{
   box-sizing: border-box;
   background-color: #F0F0F0;
   padding: 1rem;
@@ -493,11 +493,54 @@ footer{
   transition: all 0.4s;
 }
 
-.registration-button:hover{
+.registration-button,.login-button,.contact-button:hover{
   background-color: #0BB530;
   color: white;
 }
-/* Registration Section Ends */
+/* Registration && Login && Contact Section Ends */
+
+/*Contact Section Starts */
+#contact{
+  margin: 4rem 1rem;
+  min-height: 60vh;
+}
+
+.contact-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-message{
+  flex: 1;
+}
+.contact-info{
+  flex: 1;
+  margin: 0 3rem;
+}
+.map iframe{
+  box-sizing: border-box;
+  height: 28rem;
+  width: 100%;
+}
+.address,.phone-number{
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.contact-heading{
+  margin-bottom: 6rem;
+}
+.contact-form{
+  box-sizing: border-box;
+  box-shadow: var(--box-shadow);
+  width: 95%;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
+
+/*Contact Section Ends */
 
 @media screen and (max-width: 1024px) {
 
