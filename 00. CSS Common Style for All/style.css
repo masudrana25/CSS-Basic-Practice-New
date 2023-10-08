@@ -1,0 +1,139 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+html{
+  font-size : 62.5%;
+  scroll-behavior: smooth;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.flex{
+  display : flex;
+}
+.flex-column{
+  display : flex;
+  flex-direction: column;
+}
+.flex-column-center{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-row{
+  display : flex;
+  flex-direction: row;
+}
+.flex-row{
+  display : flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flex-center{
+	display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.flex-between{
+  display : flex;
+  align-items : center ;
+  justify-content : space-between;
+}
+.flex-around{
+  display : flex;
+  align-items : center ;
+  justify-content : space-around;
+}
+
+.text-center{
+  text-align:center;
+}
+.text-right{
+  text-align:right;
+}
+.text-left{
+  text-align: left;
+}
+.text-justify{
+  text-align: justify;
+}
+
+.c-white{
+  color: white;
+}
+.c-black{
+  color: black;
+}
+.c-green{
+  color: green;
+}
+.c-red{
+  color : red;
+}
+
+.bg-black{
+  background-color : black;
+}
+.bg-white{
+  background-color : white;
+}
+.bg-red{
+  background-color : red;
+}
+.bg-primary{
+  background-color : blue;
+}
+
+.box-shadow-primary{
+  box-shadow : 0.2rem 0.2rem 0.7rem gray;
+}
+.box-shadow-secondary{
+  box-shadow : 0.2rem 0.2rem 1.2rem black;
+}
+
+.btn{
+  padding : 0.8rem;
+}
+
+
+.heading-1{
+  font-size: 3.5rem;
+}
+.heading-2{
+  font-size: 3.2rem;
+}
+.heading-3{
+  font-size:3rem;
+}
+.heading-4{
+  font-size: 2.8rem;
+}
+.heading-5{
+  font-size: 2.5rem;
+}
+.heading-6{
+  font-size: 2.2rem;
+}
+
+
+.transition-primary{
+  transition : all 0.4s;
+}
+.transition-secondary{
+  transition : all 1s;
+}
+.transition-tertiary{
+  transition : all 2s;
+}
