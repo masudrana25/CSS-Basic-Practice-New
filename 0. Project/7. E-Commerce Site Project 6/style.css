@@ -437,6 +437,68 @@ footer{
 }
 /* Footer Section Ends */
 
+/* Registration Section Starts */
+#registration{
+  margin: 4rem 6rem;
+  min-height: 50vh;
+}
+
+.registration-heading{
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.registration-form{
+  box-sizing: border-box;
+  box-shadow: var(--box-shadow);
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
+.one-input{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 2.5rem 0;
+}
+
+.one-input > input,textarea{
+  box-sizing: border-box;
+  width: 80%;
+  font-size: 2.3rem;
+}
+
+.registration-textArea{
+  box-sizing: border-box;
+  resize: none;
+  min-height: 7rem;
+}
+
+.regi-btn{
+  text-align: center;
+}
+
+.registration-button{
+  box-sizing: border-box;
+  background-color: #F0F0F0;
+  padding: 1rem;
+  border: none;
+  width: 25%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-size: 1.8rem;
+
+  transition: all 0.4s;
+}
+
+.registration-button:hover{
+  background-color: #0BB530;
+  color: white;
+}
+/* Registration Section Ends */
+
 @media screen and (max-width: 1024px) {
 
   /* main starts */
