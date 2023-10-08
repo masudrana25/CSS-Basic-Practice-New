@@ -284,6 +284,21 @@ main{
   width: 30%;
   padding: 2rem;
   box-shadow: var(--box-shadow);
+  position: relative;
+}
+
+.stock-details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0BB530;
+  font-size: 2rem;
+  padding: 0 1rem;
+  line-height: 4rem;
+  border-radius: 1rem;
+  z-index: 5;
+  color: white;
+  font-weight: 600;
 }
 
 .card:hover{
@@ -294,6 +309,15 @@ main{
   font-size: 2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.card-image{
+  filter: saturate(0);
+  transition: all 0.4s;
+}
+
+.card-image:hover{
+  filter: saturate(1);
 }
 
 .dot{
@@ -398,11 +422,14 @@ footer{
 .input-footer{
   width: 30rem;
   height: 3.6rem;
+  border: none;
+  padding: .5rem;
 }
 
 .btn-footer{
   transition: var(--transition);
   height: 3.6rem;
+  border: none;
 }
 
 .btn-footer:hover{
