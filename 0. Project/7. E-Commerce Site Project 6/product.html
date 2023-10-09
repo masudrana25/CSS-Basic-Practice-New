@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="this is a e-commerce project for masud express">
+  <title>E-Commerce Site</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FontAwesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <!-- Responsive Navbar Bar Starts -->
+  <i class="fa-solid fa-bars fa-4x" id="menu-bar"></i>
+  <!-- Responsive Navbar Bar Ends -->
+
+  <!-- Navbar Start -->
+  <nav class="navbar-hidden" id="menu">
+    <ul class="navbar flex-both-center">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="Registration.html">Registration</a>
+      </li>
+      <li>
+        <a href="Login.html">Login</a>
+      </li>
+      <li>
+        <a href="index.html">Logout</a>
+      </li>
+      <li>
+        <a href="Contact.html">Contact</a>
+      </li>
+      <li class="flex-both-center">
+        <a href="Profile.html">
+          <img class="nav-profile-img" src="./images/masud profile.jpg" alt="">
+        </a>
+      </li>
+    </ul>
+
+    <!-- Sub-navbar Starts -->
+    <ul class="sub-navbar flex-both-center">
+      <li><a href="" class="sub-navbar-header">Masud Express</a></li>
+      <li>
+        <a href="" class="sub-navbar-cart">
+          <i class="fa-solid fa-cart-shopping"></i> Cart 2 Products - $124.00
+        </a>
+      </li>
+    </ul>
+    <!-- Sub-navbar Ends -->
+  </nav>
+  <!-- Navbar Ends -->
+
+
+  <!-- Main Section Starts -->
+  <div id="one-product">
+    <h2 class="product-heading text-center">Product Details</h2>
+    <div class="product-card">
+      <img src="./images/product1.jpg" class="product-card-image" alt="Sony V-4 Headphone">
+      <div class="product-card-description">
+        <h5 class="card-heading text-left">
+          Sony V-4 Headphone
+        </h5>
+        <p class="dot-circle margin-bottom text-left">
+          <span class="dot green"></span>
+          <span class="dot black"></span>
+          <span class="dot red"></span>
+        </p>
+        <div class="product-card-details text-justify margin-bottom">
+          <p class=" margin-bottom">
+            <span>Description:</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, consequatur saepe
+            vel numquam
+            non,
+            voluptatum suscipit nam consequuntur aliquid earum explicabo reprehenderit quo distinctio quis!
+          </p>
+
+          <p class=" margin-bottom">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro deleniti et totam autem? Incidunt alias
+            dolore veritatis
+            error animi at dolorum voluptates accusamus, minus optio ut illum dolor perspiciatis fuga illo molestiae
+            quod, eligendi
+            ratione.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro deleniti et totam autem? Incidunt alias
+            dolore veritatis
+            error animi at dolorum voluptates accusamus, minus optio ut illum dolor perspiciatis fuga illo molestiae
+            quod, eligendi
+            ratione.
+          </p>
+        </div>
+        <p class="product-card-category margin-bottom">
+          Category: Headphone
+        </p>
+        <p class="product-card-price text-left margin-bottom">
+          Price: $225.99
+        </p>
+        <p class="product-card-rating text-left margin-bottom">
+          Rating: 4.5/5
+        </p>
+        <button class="btn btn-card product-card-btn" type="submit">Add To Cart</button>
+        <button class="btn btn-card product-card-btn" type="submit">Back To Shopping</button>
+      </div>
+    </div>
+  </div>
+  <!-- Main Section Ends -->
+
+
+  <!-- Footer Section Starts -->
+  <footer class="flex-space-around">
+    <div class="footer-subscribe flex-both-center">
+      <label for="email">Subscribe to Newsletter:</label>
+      <input type="email" name="email" id="email" class="input input-footer" placeholder="Your Email Address">
+      <button type="submit" class="btn btn-footer">Subscribe</button>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; Copyright 2023 Masud Express. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- Footer Section Ends -->
+
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
