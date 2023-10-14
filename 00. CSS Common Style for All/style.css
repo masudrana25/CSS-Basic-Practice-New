@@ -69,6 +69,15 @@ img{
 .text-justify{
   text-align: justify;
 }
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-lowercase{
+  text-transform: lowercase;
+}
+.text-capitalize{
+   text-transform: capitalize; /* capitalize the first symbol of each word */
+}
 
 .c-white{
   color: white;
