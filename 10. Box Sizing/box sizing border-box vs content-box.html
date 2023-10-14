@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      display: flex;
+    }
+
+    .div1 {
+      box-sizing: border-box;
+      /* Height width er moddhey padding, border nibey */
+      width: 300px;
+      height: 300px;
+      border: 2px solid red;
+      padding: 10px;
+    }
+
+    .div2 {
+      box-sizing: content-box;
+      /* Height width er bairey padding, border nibey */
+      width: 300px;
+      height: 300px;
+      border: 2px solid red;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="div1">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio error repellendus, repellat cum et perspiciatis
+    blanditiis, consequuntur excepturi dolores deleniti natus consectetur sint assumenda iure totam, molestias maxime
+    velit ad.
+  </div>
+
+  <div class="div2">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut aperiam illum, minus soluta autem, culpa deserunt
+    facilis dignissimos corporis illo error dolorum optio maxime ratione commodi fugiat iste sequi facere.
+  </div>
+</body>
+
+</html>
