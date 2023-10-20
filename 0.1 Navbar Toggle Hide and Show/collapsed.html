@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .hide-text-all {
+      width: 400px;
+      height: 300px;
+      border: 1px solid red;
+    }
+
+    .hide {
+      display: none;
+    }
+  </style>
+</head>
+
+<body style="width: 800px; margin: 0 auto; margin-top: 50px;">
+  <button id="hide-text">Show</button>
+  <div class="hide" id="hide">
+    <p class="hide-text-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore corporis possimus earum
+      quia vitae aperiam unde,
+      placeat illo molestias perspiciatis. Tenetur quae totam eos accusamus nulla dignissimos repellendus voluptates
+      dolorem?</p>
+  </div>
+
+  <script>
+    const collapsed = document.getElementById('hide');
+    document.getElementById('hide-text').addEventListener('click', () => {
+      if (collapsed.className === 'hide') {
+        collapsed.classList.remove('hide');
+      } else {
+        collapsed.classList.add('hide');
+      }
+    })
+  </script>
+</body>
+
+</html>
