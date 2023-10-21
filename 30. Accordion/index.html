@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accordion with Raw CSS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    .accordion-section {
+      margin: 30px 20px;
+      background-color: blueviolet;
+      color: white;
+      padding: 15px;
+    }
+
+    .collapse {
+      display: none;
+    }
+
+    .btn-accordion {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 8px;
+      background-color: blue;
+      border: 1px solid blue;
+      border-radius: 10px;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    #accordion_item1 {
+      box-sizing: border-box;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="accordion-section">
+
+    <button id="collapse_btn" class="btn btn-accordion" data-bs-toggle="toggle" data-bs-target="#accordion_item1">
+      <p>Accordion 1</p>
+      <i class="fa-sharp fa-solid fa-caret-down"></i>
+    </button>
+
+
+    <div class="collapse" id="accordion_item1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo aut cum itaque. Mollitia delectus aperiam ipsam
+      aliquid molestias. Laudantium qui veniam labore modi voluptatum eaque, reiciendis molestias. Minima, sint quo.
+    </div>
+
+  </div>
+
+  <script>
+    const collapse_btn = document.getElementById('collapse_btn');
+    const accordion_item1 = document.getElementById('accordion_item1');
+
+    collapse_btn.addEventListener('click', () => {
+      if (accordion_item1.className === 'collapse') {
+        accordion_item1.classList.remove('collapse');
+      }
+      else {
+        accordion_item1.classList.add('collapse');
+      }
+    })
+  </script>
+</body>
+
+</html>
